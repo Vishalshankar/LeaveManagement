@@ -26,8 +26,15 @@ using LeaveManagement.web.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "D:\LeaveManagement\LeaveManagement.web\Views\_ViewImports.cshtml"
+using LeaveManagement.web.Data;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"421ce5418db3d449569bcc982ffb763560a228c2", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e6c2872447e11324c3a45ca73490baa1eea95311", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

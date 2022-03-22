@@ -8,7 +8,7 @@ namespace LeaveManagement.web.Data
     public class LeaveType:BaseEntity
     {
       
-        public int DafaultDays { get; set; }
+        public int DefaultDays { get; set; }
         public string Name { get; set; }
 
     }

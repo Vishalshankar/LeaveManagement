@@ -1,3 +1,4 @@
+using LeaveManagement.web.Configuration;
 using LeaveManagement.web.Data;
 using LeaveManagement.web.Models;
 using Microsoft.AspNetCore.Builder;
@@ -35,6 +36,7 @@ namespace LeaveManagement.web
 
             services.AddDefaultIdentity<Employee>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddAutoMapper(typeof(MapperConfig));
             services.AddControllersWithViews();
         }
 
